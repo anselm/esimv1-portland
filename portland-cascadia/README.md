@@ -197,7 +197,7 @@ matched DOGAMI's. Others, such as the 72 hours of generator fuel, are guesses. T
 [How each part is modelled](#how-each-part-is-modelled) gives the rule and the source for each
 part.
 
-A run can also be watched. The view at the top of this page shows the modelled area in three
+A run can also be watched. The view on each run's page shows the modelled area in three
 dimensions: the relief, the rivers, the roads and the bridges, with the model's parts grouped by
 layer and each switched on and off. Press play under it, or open a run from the list above this
 text. Bridges, tanks and hospitals change colour when they close, fail or lose power, and a brief
