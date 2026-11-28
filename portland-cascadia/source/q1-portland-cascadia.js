@@ -18,8 +18,12 @@ const time_of_day = "day";    // people where the inventory places them at 2 PM
 // where: the window every module here works on, and its resolution
 const place = { lat_s: 45.43, lat_n: 45.66, lon_w: -122.85, lon_e: -122.47, res_arcsec: 1 };
 
+// what: the products of the data warehouse this scenario reads (https://data.earthlight.cloud), each named by
+// its address there: the roads and bridge lines and the place names the maps draw. Nothing computed reads them.
+const data = { roads: "roads/osm/portland/2026-11-28", names: "names/osm/portland/2026-11-28" };
+
 // a module of a kind, working on that window and reading the scenario's folder
-const m = (kind, params = {}) => ({ kind, params: { place, folder, ...params } });
+const m = (kind, params = {}) => ({ kind, params: { place, folder, data, ...params } });
 
 const run = {
   name: "q1-portland-cascadia",

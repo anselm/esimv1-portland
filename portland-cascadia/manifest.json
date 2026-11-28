@@ -16,6 +16,10 @@
       "id": "lifelines",
       "kind": "portland.lifelines",
       "params": {
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "folder": "portland-cascadia",
         "inputs": "computed",
         "place": {
@@ -33,6 +37,10 @@
       "id": "tanks",
       "kind": "fuel.tanks",
       "params": {
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "folder": "portland-cascadia",
         "place": {
           "lat_n": 45.66,
@@ -49,6 +57,10 @@
       "id": "bridges",
       "kind": "roads.bridges",
       "params": {
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "folder": "portland-cascadia",
         "place": {
           "lat_n": 45.66,
@@ -63,6 +75,10 @@
       "id": "power",
       "kind": "power.structures",
       "params": {
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "folder": "portland-cascadia",
         "place": {
           "lat_n": 45.66,
@@ -78,6 +94,10 @@
       "id": "routes",
       "kind": "roads.routes",
       "params": {
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "folder": "portland-cascadia",
         "place": {
           "lat_n": 45.66,
@@ -106,6 +126,10 @@
       "id": "depot",
       "kind": "fuel.depot",
       "params": {
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "folder": "portland-cascadia",
         "place": {
           "lat_n": 45.66,
@@ -121,6 +145,10 @@
       "id": "hospitals",
       "kind": "health.hospitals",
       "params": {
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "folder": "portland-cascadia",
         "place": {
           "lat_n": 45.66,
@@ -135,6 +163,10 @@
       "id": "aftermath",
       "kind": "people.aftermath",
       "params": {
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "folder": "portland-cascadia",
         "place": {
           "lat_n": 45.66,
@@ -150,6 +182,10 @@
       "id": "agents",
       "kind": "people.agents",
       "params": {
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "folder": "portland-cascadia",
         "place": {
           "lat_n": 45.66,
@@ -167,6 +203,10 @@
       "kind": "quake.ground",
       "params": {
         "at": "2027-02-01T22:00:00Z",
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "folder": "portland-cascadia",
         "place": {
           "lat_n": 45.66,
@@ -186,6 +226,10 @@
       "params": {
         "casualty_scale": 3,
         "collapse_given_complete": 0.25,
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "displaced_share": 0.65,
         "folder": "portland-cascadia",
         "fragility_scale": 1.2,
@@ -206,6 +250,10 @@
       "id": "losses",
       "kind": "obs.losses",
       "params": {
+        "data": {
+          "names": "names/osm/portland/2026-11-28",
+          "roads": "roads/osm/portland/2026-11-28"
+        },
         "folder": "portland-cascadia",
         "place": {
           "lat_n": 45.66,
@@ -229,8 +277,8 @@
     }
   ],
   "from": {
-    "entry": "manifests/q1-portland-cascadia.js",
-    "hash": "sha256:d7559978995dd267324ac266b2aed71703ea257ad22d3e739510c436412061ba",
+    "entry": "scenarios/esimv1-portland/manifests/q1-portland-cascadia.js",
+    "hash": "sha256:0b4b084aab5e9b9e132a7b28fe03fa36c2227a568fd1ecbbef87a49d5104a9fb",
     "language": "javascript"
   },
   "manifest": "manifest/1"

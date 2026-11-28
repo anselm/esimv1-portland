@@ -17,6 +17,10 @@ inputs = "computed"
 retrofit = false
 storage_cut = 0
 
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
+
 [module.params.place]
 lat_n = 45.66
 lat_s = 45.43
@@ -33,6 +37,10 @@ folder = "portland-cascadia"
 retrofit = false
 storage_cut = 0
 
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
+
 [module.params.place]
 lat_n = 45.66
 lat_s = 45.43
@@ -46,6 +54,10 @@ kind = "roads.bridges"
 
 [module.params]
 folder = "portland-cascadia"
+
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
 
 [module.params.place]
 lat_n = 45.66
@@ -62,6 +74,10 @@ kind = "power.structures"
 folder = "portland-cascadia"
 soils = "wet"
 
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
+
 [module.params.place]
 lat_n = 45.66
 lat_s = 45.43
@@ -76,6 +92,10 @@ kind = "roads.routes"
 [module.params]
 folder = "portland-cascadia"
 soils = "wet"
+
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
 
 [module.params.place]
 lat_n = 45.66
@@ -103,6 +123,10 @@ kind = "fuel.depot"
 folder = "portland-cascadia"
 storage_cut = 0
 
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
+
 [module.params.place]
 lat_n = 45.66
 lat_s = 45.43
@@ -116,6 +140,10 @@ kind = "health.hospitals"
 
 [module.params]
 folder = "portland-cascadia"
+
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
 
 [module.params.place]
 lat_n = 45.66
@@ -132,6 +160,10 @@ kind = "people.aftermath"
 folder = "portland-cascadia"
 summary_day = 333
 
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
+
 [module.params.place]
 lat_n = 45.66
 lat_s = 45.43
@@ -147,6 +179,10 @@ kind = "people.agents"
 folder = "portland-cascadia"
 scale = 10
 time_of_day = "day"
+
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
 
 [module.params.place]
 lat_n = 45.66
@@ -165,6 +201,10 @@ folder = "portland-cascadia"
 soils = "wet"
 tz_name = "PST"
 tz_offset_h = -8
+
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
 
 [module.params.place]
 lat_n = 45.66
@@ -188,6 +228,10 @@ gf_median_cm = 25
 median_complete_g = 1.1
 time_of_day = "day"
 
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
+
 [module.params.place]
 lat_n = 45.66
 lat_s = 45.43
@@ -203,6 +247,10 @@ kind = "obs.losses"
 folder = "portland-cascadia"
 record = "wet"
 time_of_day = "day"
+
+[module.params.data]
+names = "names/osm/portland/2026-11-28"
+roads = "roads/osm/portland/2026-11-28"
 
 [module.params.place]
 lat_n = 45.66
